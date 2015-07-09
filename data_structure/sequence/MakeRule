@@ -1,0 +1,6 @@
+CC = gcc
+
+%: %.o
+	$(CC) $(CFLAGS) $^ -o $@
+%.o: %.c
+	$(CC) $(CFLAGS) -c $<

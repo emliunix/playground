@@ -1,0 +1,1 @@
+alist.o: alist.h
